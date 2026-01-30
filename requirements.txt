@@ -1,0 +1,48 @@
+# =============================================================================
+# Bitcoin Price Prediction - Tüm Modeller İçin Gerekli Paketler
+# =============================================================================
+# Kurulum: pip install -r requirements.txt
+# Anaconda kullanıyorsanız: pip install yfinance lightgbm xgboost ta
+# (Diğer paketler Anaconda'da zaten yüklü)
+# =============================================================================
+
+# Core Libraries - Anaconda'da zaten var
+numpy
+pandas
+matplotlib
+seaborn
+
+# Data Collection
+yfinance
+requests
+
+# Machine Learning - Anaconda'da scikit-learn var
+scikit-learn
+lightgbm
+xgboost
+
+# Deep Learning - Anaconda'da PyTorch var (veya: conda install pytorch)
+torch
+torchvision
+torchaudio
+
+# Technical Analysis - Manuel yüklenmeli
+ta
+
+# Utilities - Anaconda'da zaten var
+joblib
+python-dateutil
+
+# Jupyter Notebook - Anaconda'da zaten var
+ipykernel
+jupyter
+notebook
+
+# =============================================================================
+# Model Detayları
+# =============================================================================
+# ✅ LightGBM Model: numpy, pandas, matplotlib, seaborn, yfinance, scikit-learn, lightgbm, joblib
+# ✅ XGBoost Model: numpy, pandas, matplotlib, seaborn, yfinance, scikit-learn, xgboost, joblib
+# ✅ PyTorch GRU: numpy, pandas, matplotlib, seaborn, yfinance, scikit-learn, torch
+# ✅ PyTorch LSTM: numpy, pandas, matplotlib, seaborn, yfinance, scikit-learn, torch
+# ✅ Hybrid Pipeline: Yukarıdakilerin tümü + ta (technical analysis) + requests
